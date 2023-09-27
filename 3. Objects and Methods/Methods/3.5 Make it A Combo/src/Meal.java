@@ -9,10 +9,16 @@ public class Meal {
         cost = price;
     }
 
-    //Instance methods//
-    /* Complete the method makeItACombo */
-}
+	public void makeItACombo() {
+		name = name + " with fries and soda";
+		cost = cost + 3;
 
-/* Complete the method getBill */}
+	}
+
+	public String getBill() {
+		return name + ", $" + cost;
+
+
+	}
 
         }

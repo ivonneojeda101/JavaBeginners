@@ -13,6 +13,8 @@ public class Person {
 
     //instance (object) method//
     public void epitaph() {
+		int age = yearDeceased - yearBorn;
+		System.out.println(name + " lived to an age of " + age);
         /* Print <name> lived to an age of <age> */
     }
 
